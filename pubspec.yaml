@@ -1,0 +1,27 @@
+name: nihongo
+description: Japanese learning MVP app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^4.0.2
+
+flutter:
+  uses-material-design: true
+```
+
+---
+
+# 📁 ФАЙЛ 2 — lib/main.dart
+
+```dart
+import 'package:flutter/material.dart';
+import 'app.dart';
+
+void main() {
+  runApp(const SakuraApp());
+}
