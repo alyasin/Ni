@@ -2,14 +2,14 @@ dart
 import 'package:flutter/material.dart';
 import 'home.dart';
 
-class SakuraApp extends StatefulWidget {
-  const SakuraApp({super.key});
+class NihonGoApp extends StatefulWidget {
+  const NihonGoApp({super.key});
 
   @override
-  State<SakuraApp> createState() => _SakuraAppState();
+  State<NihonGoApp> createState() => _NihonGoAppState();
 }
 
-class _SakuraAppState extends State<SakuraApp> {
+class _NihonGoAppState extends State<NihonGoApp> {
   ThemeMode mode = ThemeMode.system;
 
   void setTheme(ThemeMode m) {
